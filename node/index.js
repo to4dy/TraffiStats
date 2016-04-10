@@ -41,8 +41,8 @@ app.get('/bus/close_stations/:currLat/:currLong/:radius', function(req, res) {
 				response[i] = {
 					"id": +split[2],
 					"name": split[3],
-					"lat": +split[1].replace(",", ".") * Math.pow(10, 6),
-					"long": +split[0].replace(",", ".") * Math.pow(10, 6)
+					"latitude": +split[1].replace(",", ".") * Math.pow(10, 6),
+					"longitude": +split[0].replace(",", ".") * Math.pow(10, 6)
 				}
 			}
 		}
