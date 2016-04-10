@@ -4,10 +4,10 @@ Traffic statistics gathered from Luxembourgs open data system.
 Please join the project and contribute.
 
 Available:
+  - Get JSON of closest bus station by distance. (Doc: https://data.public.lu/en/reuses/close-transport-stations-in-json/)
 
-
-Planned:
-  - How many busses are currenlty late? (How punctual is Luxembourg)
+Planned Data:
+  - How many busses are currenlty late?
   - Record lots of data and learn to predict perturbations on certain public transport lanes.
-  - Many more.
+  - Much more..
   
