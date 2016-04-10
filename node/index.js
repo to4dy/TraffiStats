@@ -8,7 +8,14 @@ var app = express();
 
 
 
-app.get('/bus', function(req, res) {
+app.get('/api/bus', function(req, res) {
+
+	res.send("API access point for everything bus related.");
+
+});
+
+
+app.get('/api', function(req, res) {
 
 	res.send("API access point for everything bus related.");
 
@@ -17,7 +24,8 @@ app.get('/bus', function(req, res) {
 /*
 	API Access to close public transport stations.
 */
-app.get('/bus/close_stations/:currLat/:currLong/:radius', function(req, res) {
+app.get('/api/general/close_stations/:currLat/:currLong/:radius', function(req,
+	res) {
 	async.parallel([
 		function(next) {
 			//Get some data here
